@@ -1,19 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 import ItemList from "./ItemList";
-import DisplayTiles from "./DisplayTiles";
-import Filter from "./Filter";
+//import Filter from "./Filter";
 
 import hogs from "../porkers_data";
-console.log(hogs)
+//console.log(hogs)
 
 function App() {
-	
-	// const eachHog = hogs.map((hogObj) => {
-	// 	return (<ItemList name={hogObj.name} image={hogObj.image} />
-	// 	)
-	// })
-	
+
 	return (
 		<div className="App">
 			<Nav />
