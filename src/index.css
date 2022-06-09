@@ -91,6 +91,14 @@ ul {
   opacity: 1;
 }
 
+
+/*to resize image of each pig in tile*/
+.tileImg {
+  width: 60%;
+  height: 80%;
+}
+
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
